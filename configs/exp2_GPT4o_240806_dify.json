@@ -1,0 +1,26 @@
+{
+    "LLM1Prompt": {
+      "api_base": "https://api.dify.ai/v1/",
+      "api_key": "YOUR API KEY"
+    },
+    "LLM2Prompt": {
+      "api_base": "https://api.dify.ai/v1/",
+      "api_key": "YOUR API KEY"
+    },
+    "LLM3Prompt": {
+      "api_base": "https://api.dify.ai/v1/",
+      "api_key": "YOUR API KEY"
+    },
+    "LLM1Format": {
+      "api_base": "https://api.dify.ai/v1/",
+      "api_key": "YOUR API KEY"
+    },
+    "LLM2Format": {
+      "api_base": "https://api.dify.ai/v1/",
+      "api_key": "YOUR API KEY"
+    },
+    "LLM3Format": {
+      "api_base": "https://api.dify.ai/v1/",
+      "api_key": "YOUR API KEY"
+    }
+  }

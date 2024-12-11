@@ -1,0 +1,7 @@
+huggingface-hub==0.26.1
+openai==1.53.0
+pandas==2.2.3
+unsloth @ git+https://github.com/unslothai/unsloth.git@1f52468fa31bf0b641ec96217ef0f5916a07fce5
+unsloth_zoo==2024.10.4
+torch==2.4.1
+transformers==4.45.2

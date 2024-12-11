@@ -1,0 +1,2 @@
+What is the final number of resoueces needed?
+You only output the number.

@@ -1,0 +1,14 @@
+# Instruction
+Based on the results output by the user, determine whether the final answer is True or False.
+You must only output True or False.
+You must only output True or False.
+You must only output True or False.
+
+# Question
+Is this patient ESI-2?
+
+# Response
+True
+
+# Response
+False

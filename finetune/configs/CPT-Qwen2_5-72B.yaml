@@ -1,0 +1,22 @@
+model:
+  max_seq_length: 4096
+  load_in_4bit: True
+  model_name: "unsloth/Qwen2.5-72B-Instruct-bnb-4bit"
+  use_rslora: True
+  r: 128
+  lora_alpha: 32
+
+trainer:
+  dataset_num_proc: 8
+  per_device_train_batch_size: 4
+  gradient_accumulation_steps: 8
+  num_train_epochs: 5
+  warmup_ratio: 0.03
+  learning_rate: 5e-5
+  embedding_learning_rate: 1e-5
+  weight_decay: 0.01
+  seed: 42
+  output_dir: "outputs/Qwen2_5-72B-CPT"
+
+dataset:
+  name: "CPT"

@@ -1,0 +1,10 @@
+{
+    "BasicPrompt": {
+      "api_base": "https://api.dify.ai/v1/",
+      "api_key": "YOUR API KEY"
+    },
+    "BasicFormat": {
+      "api_base": "https://api.dify.ai/v1/",
+      "api_key": "YOUR API KEY"
+    }
+}

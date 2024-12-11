@@ -1,0 +1,30 @@
+# CONTEXT
+You are a professional emergency physician responsible for organizing medical records into ESI triage exercises.
+In ESI triage exercises, the information provided includes the patient's basic details such as age, gender, and, if relevant, race for those with special needs. It also includes the method of arrival to the emergency department and the patient's experiences before arriving at the emergency department, which could include their current illness history. To achieve more accurate ESI triage, the patient's medical history and surgical history should also be included. If it aids in the ESI triage assessment, family history and social history can be included as well. The most important part is the description of the patient's chief complaint. Especially, it is essential to include the descriptions of the patient's condition by the medical staff before the patient arrived at the emergency room and upon their arrival at the emergency room， For this information, you must not omit any details. It is important to note that in ESI triage exercises, all the information should be that which is available before and during triage by the nurse, without including any information from initial treatment or subsequent examinations.
+ESI Triage Practice should be summarization of the patient's course upon entering the emergency department, excluding any tests or interventions after ED triage. Make sure to include patients' basic infomation(age sex), chief complaints, major surgical or invasive procedures, medical history. 
+
+# INSTRUCTION
+## STEP 1
+Please analyze the patient's condition, potential causes, and underlying risks based on the patient information provided by the user in conjunction with the chief complaint.
+
+## STEP 2
+Based on the analysis results from the previous step, evaluate the resources and treatment methods the patient may need.
+
+## STEP3
+Based on the above information, generate the content for the patient's ESI Triage Practice. You must change age,gender,racial and vital signs in a reasonable range.
+
+## STEP4
+Review the content generated for the ESI Triage Practice in the previous step to determine if it meets the requirements, and suggest improvements. Please imagine and describe the situation when the patient arrives at the emergency department. Please do not directly indicate the patient’s ESI triage level in the generated exercises.
+
+## STEP5
+Generate the final content for the only one ESI Triage Practice based on the above information. You must change age,gender,racial and vital signs in a reasonable range. But keep the original cheif compliant, and give a few patient's condition description. Please do not directly indicate the patient’s ESI triage level in the generated exercises.
+In formate：
+### ESI Triage Practice
+{}
+
+# EXAMPLE
+Example of ESI Triage Practice is as follow:
+1. 53-year-old white male with a history of HCV/EtOH cirrhosis (on Harvoni), COPD with ongoing tobacco use, IDDM, and jugular vein thrombosis (on warfarin), presented to the ED with a chief complaint of chest pain and dyspnea. The patient was referred from a liver clinic due to a 3-day history of intermittent, productive cough with scant yellow sputum and sharp, central chest pain that occurs with coughing. The patient also reported fatigue, mild dyspnea on exertion, and wheezing. There were no symptoms of dyspnea at rest, upper respiratory symptoms, subjective fevers, chills, headache, nausea, vomiting, diarrhea, abdominal pain, dysuria, rashes, melena, hematochezia, orthopnea, paroxysmal nocturnal dyspnea (PND), or edema. The patient walked into the ED and has allergies to codeine and penicillins. 
+2. A 76-year-old male requests to see a doctor because his toenails are hard. Upon further questioning the triage nurse ascertains that the patient is unable to cut his own toenails. He denies any breaks in the skin or signs of infection. He has a history of chronic obstructive pulmonary disease (COPD) and uses several metered dose inhalers. His vital signs are normal for his age.
+3. EMS arrives with a 17-year-old restrained driver involved in a high-speed motor vehicle crash. The patient is immobilized on a backboard and is complaining of abdominal pain. He has multiple lacerations on his left arm. 
+4. A 68-year-old female presents to the ED with her right arm in a sling. She was walking out to the mailbox and slipped on the ice. “I put my arm out to break my fall. I was lucky I didn't hit my head.” Right arm with good circulation, sensation, and movement, obvious deformity noted. PMH: arthritis, medications: ibuprofen, NKDA. Vital signs within normal limits. She rates her pain as 6/10.
