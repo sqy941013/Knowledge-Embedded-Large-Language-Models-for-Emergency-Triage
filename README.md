@@ -410,9 +410,3 @@ If you use this work in your research, please cite our repository along with the
 [5] Goldberger, A., Amaral, L., Glass, L., Hausdorff, J., Ivanov, P. C., Mark, R., ... & Stanley, H. E. (2000). PhysioBank, PhysioToolkit, and PhysioNet: Components of a new research resource for complex physiologic signals. Circulation [Online]. 101(23), pp. e215–e220.
 
 [6] Han, D., Han, M., & Unsloth team. (2023). Unsloth: Efficient Fine-tuning Framework for Large Language Models. GitHub. http://github.com/unslothai/unsloth
-
-## Contact
-
-For any inquiries about this research, please contact:
-- Qingyang Shen (jackflynn@stu.scu.edu.cn)
-- Quan Guo (guoquan@scu.edu.cn)
